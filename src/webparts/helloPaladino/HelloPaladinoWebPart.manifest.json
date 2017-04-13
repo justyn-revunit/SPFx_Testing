@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "09d604ad-e904-49c0-965f-fcd332770b51",
+  "alias": "HelloPaladinoWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "09d604ad-e904-49c0-965f-fcd332770b51",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Hello Paladino" },
+    "description": { "default": "HelloPaladino description" },
+    "officeFabricIconFontName": "Page",
+    "properties": { 
+      "description":  "HelloPaladino",
+      "background-color": "#fff"
+    }
+  }]
+}

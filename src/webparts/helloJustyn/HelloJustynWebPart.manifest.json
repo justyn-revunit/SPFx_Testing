@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "33f402f6-db0e-4c7e-86c7-0c2b10f636f1",
+  "alias": "HelloJustynWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "33f402f6-db0e-4c7e-86c7-0c2b10f636f1",
+    "group": { "default": "Under Development" },
+    "title": { "default": "HelloJustyn" },
+    "description": { "default": "HelloJustyn description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "HelloJustyn"
+    }
+  }]
+}

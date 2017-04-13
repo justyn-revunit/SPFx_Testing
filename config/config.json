@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json",
+      "outputPath": "./dist/hello-world.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/helloPaladino/HelloPaladinoWebPart.js",
+      "manifest": "./src/webparts/helloPaladino/HelloPaladinoWebPart.manifest.json",
+      "outputPath": "./dist/hello-paladino.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/helloJustyn/HelloJustynWebPart.js",
+      "manifest": "./src/webparts/helloJustyn/HelloJustynWebPart.manifest.json",
+      "outputPath": "./dist/hello-justyn.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "helloWorldStrings": "webparts/helloWorld/loc/{locale}.js",
+    "helloPaladinoStrings": "webparts/helloPaladino/loc/{locale}.js",
+    "helloJustynStrings": "webparts/helloJustyn/loc/{locale}.js"
+  }
+}
